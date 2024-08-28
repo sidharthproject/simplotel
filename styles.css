@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to right, #ffe5b4, #fbb9b9);
+    background: linear-gradient(to right, #ffe5b4, #ffbbcc);
 }
 
 .container {
@@ -134,16 +134,17 @@ nav ul li a {
 .container2{
    height: 220px;
     background-color: #e55a5a;
-    padding: 20px;
+    padding: 10px  50px;
     letter-spacing: 0.2rem;
-    margin-left: 40px;
-  
+    margin-left: 50px;
+ 
     
 }
 .para2{
   font-size: 45px;
   font-weight: bold;
   margin: 20px 0px;
+  letter-spacing: 0.5rem;
 }
 .para3 {
   display: flex;
@@ -153,14 +154,14 @@ nav ul li a {
 .navImage{
     display: none;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
 
     .para2{
         font-size: 25px;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
 
     .hero {
         grid-template-columns: 1fr;
@@ -174,7 +175,9 @@ nav ul li a {
     .hero-content p {
         font-size: 1rem;
     }
-
+  .para2{
+    letter-spacing: normal;
+  }
    .nav ul li a {
     letter-spacing: 0;
     font-size: 0.5rem;
